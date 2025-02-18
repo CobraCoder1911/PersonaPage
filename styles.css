@@ -61,3 +61,10 @@ padding: 5%;
     text-align: center;
     color: #efc06b;
 }
+.MyImage{
+    border-radius: 50%;
+    max-width: 35%;
+    max-height: 45%;
+    margin-left: 35%;
+    margin-right: auto;
+}
