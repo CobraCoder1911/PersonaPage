@@ -1,8 +1,20 @@
 #body{
     background-color: #ec585b;
-    justify-content: center;
-    justify-items: center;
 
+}
+.navbarcontainer{
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.navbar-custom .nav-item .nav-link{
+    color: #f6ed9f;
+    
+}
+.navbar-brand{
+    color: #efc06b;
+    max-width: 10%;
+    border-radius: 50%;
 }
 .greeting{
     align-items: center;
@@ -18,6 +30,13 @@
     background:#f6ed9f;
     color:#ea874d;
     padding: 1%;
+    
+}
+.navbarimg{
+    max-width: 50px;
+    max-height:50px ;
+    align-self: center;
+    border-radius: 50%;
     
 }
 .card-img-top{
@@ -37,4 +56,8 @@ padding: 5%;
 }
 .card-title{
     text-align: center;
+}
+.footertext{
+    text-align: center;
+    color: #efc06b;
 }
