@@ -1,0 +1,40 @@
+#body{
+    background-color: #ec585b;
+    justify-content: center;
+    justify-items: center;
+
+}
+.greeting{
+    align-items: center;
+    justify-content: center;
+
+}
+.maintext{
+    color: #efc06b;
+    text-align: center;
+    justify-content: center;
+}
+.card{
+    background:#f6ed9f;
+    color:#ea874d;
+    padding: 1%;
+    
+}
+.card-img-top{
+max-width: 50%;
+max-height: 60%;
+align-self: center;
+padding: 5%;
+}
+.container-md{
+    padding-bottom:3%;
+    padding-top: 3%;
+    margin: auto;
+    width: auto;
+}
+.card-text{
+    text-align: center;
+}
+.card-title{
+    text-align: center;
+}
