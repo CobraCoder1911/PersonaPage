@@ -63,8 +63,8 @@ padding: 5%;
 }
 .MyImage{
     border-radius: 50%;
-    max-width: 35%;
-    max-height: 45%;
-    margin-left: 35%;
-    margin-right: auto;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 43%;
+    margin-right: 43%;
 }
