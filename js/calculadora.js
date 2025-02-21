@@ -9,7 +9,7 @@ buttons.forEach((btn) => {
                 display.value = "No Input"
             } 
             else if(percentOp==1){
-                display.value = ((number/100)*display.value)
+                display.value = ((number/100)*display.value).toString
                 percentOp=0
             }
             else {
