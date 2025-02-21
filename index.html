@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -15,7 +16,7 @@
 </head>
 
 <body id="body">
-    <div class="container-sm">
+    <div id="navbar" class="container-sm">
         <div class="navbar navbar-expand-lg navbar-custom justify-content-center border-1">
             <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -55,7 +56,7 @@
         </div>
     </div>
     <div class="container-sm" id="softskills">
-        <h2 class="text-center maintext" >My Soft Skills Profile</h2>
+        <h2 class="text-center maintext">My Soft Skills Profile</h2>
         <div class="table-responsive">
             <table class="table table-bordered table-striped">
                 <thead class="thead-dark">
@@ -225,6 +226,61 @@
             </div>
         </div>
     </div>
+    <div id="Portfolio" class="container-sm">
+        <h5 class="maintext">My Work</h5>
+        <div class="card-deck">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Live Demos</h5>
+                    <p class="card-text">No installs needed</p>
+                    <button type="button" class=" btn btn-custom" data-toggle="modal" data-target="#LDModal">
+                        Show Live Demos
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="LDModal" class="modal fade ">
+            <div class="modal-dialog" role="Document">
+                <div class="modal-content">
+                    <div class="modal-header container">
+                        <h5 class="modal-title">Live Demos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div id="Simple calculator" class="calculator container-sm">
+                        <h5>Calculator</h5>
+                        <input id="display" class="calcdisplay" type="text" disabled>
+                        <br>
+                        <button id="ac" class="operator CB">Ac</button> <!--Reset-->
+                        <button id="de" class="operator CB">DE</button><!--Delete-->
+                        <button id="." class="operator CB">.</button><!--Dot-->
+                        <button id="/" class="operator CB">/</button><!--divide-->
+                        <br>
+                        <button id="7" class="CB">7</button>
+                        <button id="8" class="CB">8</button>
+                        <button id="9" class="CB">9</button>
+                        <button id="*" class="operator CB">*</button>
+                        <br>
+                        <button id="4" class="CB">4</button>
+                        <button id="5" class="CB">5</button>
+                        <button id="6" class="CB">6</button>
+                        <button id="-" class="operator CB">-</button>
+                        <br>
+                        <button id="1" class="CB">1</button>
+                        <button id="2" class="CB">2</button>
+                        <button id="3" class="CB">3</button>
+                        <button id="+" class="operator CB">+</button>
+                        <br>
+                        <button id="00" class="CB">00</button>
+                        <button id="0" class="CB">0</button>
+                        <button id="=" class="operator CB">=</button>
+                        <button id="percent" class="operator CB">%</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <footer class="container-md">
         <h6 class="footertext">©2025 Ivan Hernandez</h6>
     </footer>
@@ -239,6 +295,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        <script src="/js/calculadora.js"></script>
 </body>
 
 </html>

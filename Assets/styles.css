@@ -1,74 +1,166 @@
-#body{
+#body {
     display: block;
     margin: auto;
     align-items: center;
     background-color: #ec585b;
 
 }
-.navbarcontainer{
+
+.navbarcontainer {
     align-items: center;
     align-self: center;
     align-content: center;
 }
-.navbar-custom .nav-item .nav-link{
+
+.navbar-custom .nav-item .nav-link {
     color: #f6ed9f;
-    
+
 }
-.navbar-brand{
+
+.navbar-brand {
     color: #efc06b;
     max-width: 10%;
     border-radius: 50%;
 }
-.greeting{
+
+.greeting {
     align-items: center;
     justify-content: center;
 
 }
-.maintext{
+
+.maintext {
     color: #efc06b;
     text-align: center;
     justify-content: center;
 }
-.card{
-    background:#f6ed9f;
-    color:#ea874d;
+
+.card {
+    background: #f6ed9f;
+    color: #ea874d;
     padding: 1%;
-    
+
 }
-.navbarimg{
+
+.navbarimg {
     max-width: 50px;
-    max-height:50px ;
+    max-height: 50px;
     align-self: center;
     border-radius: 50%;
-    
+
 }
-.card-img-top{
-max-width: 50%;
-max-height: 60%;
-align-self: center;
-padding: 5%;
+
+.card-img-top {
+    max-width: 50%;
+    max-height: 60%;
+    align-self: center;
+    padding: 5%;
 }
-.container-md{
-    padding-bottom:3%;
+
+.container-md {
+    padding-bottom: 3%;
     padding-top: 3%;
     margin: auto;
     width: auto;
 }
-.card-text{
+
+.card-text {
     text-align: center;
 }
-.card-title{
+
+.card-title {
     text-align: center;
 }
-.footertext{
+
+.footertext {
     text-align: center;
     color: #efc06b;
 }
-.MyImage{
+
+.MyImage {
     display: block;
     margin: auto;
     border-radius: 50%;
     max-width: 40%;
 
+
+}
+
+.card {
+
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    border-radius: 5%;
+
+
+
+
+}
+
+.container-fluid {
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.calculator {
+    text-align: center;
+    text-decoration: solid;
+    background-color: #f2d1d1;
+    box-shadow: 2px;
+    max-width: 250px;
+    margin: 10%;
+    padding: 5%;
+    border-radius: 10%;
+    color: #ff3a7a;
+    border-style: solid;
+
+}
+
+.CB {
+    background-color: #ffb3c1;
+    border-style: solid;
+    border-color:#ff5c8a;
+    color: #ff3a7a;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    text-decoration: solid;
+}
+.CB:hover{
+    background-color: #ec585b;
+}
+.btn-custom{
+    background-color: #ea874d;
     
+}
+.btn-custom:hover{
+    background-color:#efc06b;
+
+}
+.calcdisplay {
+    max-width: 150px;
+    margin-bottom: 5%;
+    font-size: 20;
+    text-align: right;
+    color: #ff3a7a;
+    background-color: #ffb3c1;
+    border-radius: 10%;
+    border-color: #ff5c8a;
+    border-style: solid;
+}
+
+.modal-content {
+    background-color: #f6ed9f;
+    align-items: center;
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+.modal-header {
+    background-color: #efc06b;
+
 }
