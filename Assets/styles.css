@@ -164,3 +164,15 @@
     background-color: #efc06b;
 
 }
+.cronos{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    border-radius: 100%;
+    max-width: 300px;
+    min-width: none;
+    max-height: 300px;
+    min-height: auto;
+    background-color:#200e3a;
+    color: #52d3d8;
+}
