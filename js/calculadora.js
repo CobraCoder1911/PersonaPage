@@ -6,7 +6,7 @@ buttons.forEach((btn) => {
     btn.addEventListener("click", () => {
         if (btn.id === "=") {//Compara el id del objeto con el string
         if(percentOp==1){
-                display.value = ((number/100)*display.value)
+                display.value = eval(`(${display.value}*${name})/100`)
                 percentOp=0
             }
             else {
