@@ -10,6 +10,7 @@ buttons.forEach((btn) => {
             } 
             else if(percentOp==1){
                 display.value = ((number/100)*display.value)
+                percentOp=0
             }
             else {
                 display.value = eval(display.value)
