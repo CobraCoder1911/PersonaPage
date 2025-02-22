@@ -11,7 +11,7 @@ buttons.forEach((btn) => {
         }
         else if (btn.id === "de") {
             display.value = display.value.slice(0, -1)
-        } else {
+        } else {{}
             display.value += btn.id
         }
 

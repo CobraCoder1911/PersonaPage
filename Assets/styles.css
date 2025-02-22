@@ -2,42 +2,40 @@
     display: block;
     margin: auto;
     align-items: center;
-    background-color: #ec585b;
+    background-color: #f9d3e0;
+    text-align: center;
 
 }
-
-.navbarcontainer {
-    align-items: center;
-    align-self: center;
-    align-content: center;
-}
-
 .navbar-custom .nav-item .nav-link {
-    color: #f6ed9f;
+    color: #e75b9a;
+    text-decoration: solid;
+
+}
+.container{
 
 }
 
-.navbar-brand {
-    color: #efc06b;
-    max-width: 10%;
-    border-radius: 50%;
-}
 
 .greeting {
     align-items: center;
     justify-content: center;
+    text-decoration: solid;
+    text-align: center;
+    
 
 }
 
 .maintext {
-    color: #efc06b;
+    color: #e75b9a;
+    text-justify:newspaper;
+    text-align: justify;
     text-align: center;
-    justify-content: center;
+    
 }
 
 .card {
-    background: #f6ed9f;
-    color: #ea874d;
+    background: #ffb3c1;
+    color: #e75b9a;
     padding: 1%;
 
 }
@@ -74,7 +72,7 @@
 
 .footertext {
     text-align: center;
-    color: #efc06b;
+    color: #ff5c8a;
 }
 
 .MyImage {
@@ -133,11 +131,11 @@
     background-color: #ec585b;
 }
 .btn-custom{
-    background-color: #ea874d;
+    background-color: #ff5c8a;
     
 }
 .btn-custom:hover{
-    background-color:#efc06b;
+    background-color:#f2d1d1;
 
 }
 .calcdisplay {
@@ -153,7 +151,7 @@
 }
 
 .modal-content {
-    background-color: #f6ed9f;
+    background-color: #ffb3c1;
     align-items: center;
     text-align: center;
     overflow-y: auto;
@@ -161,7 +159,7 @@
 }
 
 .modal-header {
-    background-color: #efc06b;
+    background-color: #ff5c8a;
 
 }
 .cronos{
