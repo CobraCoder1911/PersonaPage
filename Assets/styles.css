@@ -1,15 +1,37 @@
 #body {
-    display: block;
-    margin: auto;
-    align-items: center;
-    background-color: #f9d3e0;
-    text-align: center;
+	background: linear-gradient(-45deg, #ffb3c1, #c3829e, #f2d1d1, 	#e9b1cd);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.navbar-custom .nav-item .nav-link  {
+    background-color: #ffb3c1;
+    color: #562135;
+    text-decoration: solid;
+    outline: 2px solid #562135;
+
+    
 
 }
-.navbar-custom .nav-item .nav-link {
-    color: #e75b9a;
-    text-decoration: solid;
 
+.navbar {
+    position: sticky;
+    top:0%;
+    width: 100%;
+    z-index: 100%;
 }
 .container{
 
@@ -26,7 +48,7 @@
 }
 
 .maintext {
-    color: #e75b9a;
+    color:#562135;
     text-justify:newspaper;
     text-align: justify;
     text-align: center;
@@ -35,8 +57,9 @@
 
 .card {
     background: #ffb3c1;
-    color: #e75b9a;
+    color: #562135;
     padding: 1%;
+    outline: 3px solid #562135;
 
 }
 
@@ -72,10 +95,11 @@
 
 .footertext {
     text-align: center;
-    color: #ff5c8a;
+    color: #562135;
 }
 
 .MyImage {
+    outline: 3px solid #562135;
     display: block;
     margin: auto;
     border-radius: 50%;
@@ -90,10 +114,6 @@
     max-height: 100%;
     text-align: center;
     border-radius: 5%;
-
-
-
-
 }
 
 .container-fluid {
@@ -121,7 +141,7 @@
     background-color: #ffb3c1;
     border-style: solid;
     border-color:#ff5c8a;
-    color: #ff3a7a;
+    color: #562135;
     width: 35px;
     height: 35px;
     text-align: center;
@@ -131,7 +151,8 @@
     background-color: #ec585b;
 }
 .btn-custom{
-    background-color: #ff5c8a;
+    background-color: 	#ffa6be;
+    outline: 3px solid #562135;
     
 }
 .btn-custom:hover{
@@ -143,7 +164,7 @@
     margin-bottom: 5%;
     font-size: 20;
     text-align: right;
-    color: #ff3a7a;
+    color: #562135;
     background-color: #ffb3c1;
     border-radius: 10%;
     border-color: #ff5c8a;
@@ -174,3 +195,31 @@
     background-color:#200e3a;
     color: #52d3d8;
 }
+/* Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+
+/* Cursor */
+.cursor{
+    position: relative;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid #562135;
+    font-size: 30px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+/* Animation */
+.typewriter-animation {
+  animation: 
+    typewriter 5s steps(50) 1s 1 normal both, 
+    blinkingCursor 500ms steps(50) infinite normal;
+}
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 63%; }
+}
+@keyframes blinkingCursor{
+  from { border-right-color:#562135; }
+  to { border-right-color: transparent; }}
